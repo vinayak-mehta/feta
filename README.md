@@ -1,3 +1,3 @@
-# clutter
+# hydrogen
 
 A cookiecutter for command-line tools!
