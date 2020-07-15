@@ -14,9 +14,9 @@ def generate_version(version, prerelease=None, revision=None):
     return "".join(version_parts)
 
 
-__title__ = "hydrogen"
+__title__ = "feta"
 __description__ = "A cookiecutter for command-line tools!"
-__url__ = "https://github.com/vinayak-mehta/hydrogen"
+__url__ = "https://github.com/vinayak-mehta/feta"
 __version__ = generate_version(VERSION, prerelease=PRERELEASE, revision=REVISION)
 __author__ = "Vinayak Mehta"
 __author_email__ = "vmehta94@gmail.com"
