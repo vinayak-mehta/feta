@@ -1,3 +1,3 @@
 # feta
 
-A cookiecutter for command-line tools!
+Yet another project manager.

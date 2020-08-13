@@ -15,6 +15,9 @@ with open("README.md", "r") as f:
 
 requires = [
     "Click>=7.0",
+    "halo>=0.0.29",
+    "prompt-toolkit>=3.0.6",
+    "requests>=2.24.0",
 ]
 dev_requires = ["Sphinx>=2.2.1"]
 dev_requires = dev_requires + requires
@@ -32,6 +35,11 @@ def setup_package():
         author_email=about["__author_email__"],
         license=about["__license__"],
         packages=find_packages(exclude=("tests",)),
+        entry_points={
+            "console_scripts": [
+                "feta = feta.cli:cli"
+            ]
+        },
         install_requires=requires,
         extras_require={"dev": dev_requires},
         classifiers=[

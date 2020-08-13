@@ -15,7 +15,7 @@ def generate_version(version, prerelease=None, revision=None):
 
 
 __title__ = "feta"
-__description__ = "A cookiecutter for command-line tools!"
+__description__ = "Yet another project manager."
 __url__ = "https://github.com/vinayak-mehta/feta"
 __version__ = generate_version(VERSION, prerelease=PRERELEASE, revision=REVISION)
 __author__ = "Vinayak Mehta"
